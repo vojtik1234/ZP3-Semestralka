@@ -28,8 +28,6 @@ namespace ZP3_Animace
 		
 		void Timer1Tick(object sender, EventArgs e)
 		{
-			
-
 				obrazekBox.Image = seznamObrazku.Images[cisloObrazku]; //do boxiku pro obrazky se nahraje obrazek ze seznamu s poradim v [] zavorkach
 				if (cisloObrazku < 4 && otocka == 0) {
 					cisloObrazku ++;
@@ -41,11 +39,12 @@ namespace ZP3_Animace
 					if (cisloObrazku == 0) {
 						otocka = 0;
 					}
-				}			
-			
-				
-				
-				
+				}				
+		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			casovac.Stop(); //ukonceni srandy
 		}
 	}
 }

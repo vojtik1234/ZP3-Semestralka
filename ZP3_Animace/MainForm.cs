@@ -15,7 +15,7 @@ namespace ZP3_Animace
 		
 		int cisloObrazku = 0;
 		int otocka = 0; //int pro otoceni smeru animace
-			
+		
 		void Button1Click(object sender, EventArgs e)
 		{
 			casovac.Start(); //spusti timer (Timer1Tick) po zmacknuti tlacitka
@@ -23,23 +23,23 @@ namespace ZP3_Animace
 		
 		void PictureBox1Click(object sender, EventArgs e)
 		{
-			
+			//prazdne
 		}
 		
 		void Timer1Tick(object sender, EventArgs e)
 		{
-				obrazekBox.Image = seznamObrazku.Images[cisloObrazku]; //do boxiku pro obrazky se nahraje obrazek ze seznamu s poradim v [] zavorkach
-				if (cisloObrazku < 4 && otocka == 0) {
-					cisloObrazku ++;
-					if (cisloObrazku == 4) {
-						otocka = 1; //kdyz dojde animace na konec, prehodi se kontrolni int do 1 a aktivuje zpetny chod
-					}
-				}else{
-					cisloObrazku --;
-					if (cisloObrazku == 0) {
-						otocka = 0;
-					}
-				}				
+			obrazekBox.Image = seznamObrazku.Images[cisloObrazku]; //Do obrazkoveho boxiku se nahraje obrazek ze seznamu. Poradi obrazku je v [] zavorkach.
+			if (cisloObrazku < 4 && otocka == 0) {
+				cisloObrazku ++;
+				if (cisloObrazku == 4) {
+					otocka = 1; //Kdyz dobehne animace na konec, prehodi se kontrolni int na 1 a aktivuje zpetny chod.
+				}
+			}else{
+				cisloObrazku --;
+				if (cisloObrazku == 0) {
+					otocka = 0;
+				}
+			}
 		}
 		
 		void Button2Click(object sender, EventArgs e)

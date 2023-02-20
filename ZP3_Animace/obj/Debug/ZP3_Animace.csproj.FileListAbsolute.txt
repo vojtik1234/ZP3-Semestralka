@@ -1,0 +1,7 @@
+C:\Users\Vojta\Documents\SharpDevelop Projects\ZP3_Animace\ZP3_Animace\bin\Debug\ZP3_Animace.exe
+C:\Users\Vojta\Documents\SharpDevelop Projects\ZP3_Animace\ZP3_Animace\bin\Debug\ZP3_Animace.pdb
+C:\Users\Vojta\Documents\SharpDevelop Projects\ZP3_Animace\ZP3_Animace\obj\Debug\ZP3_Animace.csprojResolveAssemblyReference.cache
+C:\Users\Vojta\Documents\SharpDevelop Projects\ZP3_Animace\ZP3_Animace\obj\Debug\ZP3_Animace.MainForm.resources
+C:\Users\Vojta\Documents\SharpDevelop Projects\ZP3_Animace\ZP3_Animace\obj\Debug\ZP3_Animace.csproj.GenerateResource.Cache
+C:\Users\Vojta\Documents\SharpDevelop Projects\ZP3_Animace\ZP3_Animace\obj\Debug\ZP3_Animace.exe
+C:\Users\Vojta\Documents\SharpDevelop Projects\ZP3_Animace\ZP3_Animace\obj\Debug\ZP3_Animace.pdb
